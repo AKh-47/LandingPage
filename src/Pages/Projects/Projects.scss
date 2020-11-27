@@ -1,0 +1,23 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 3rem;
+
+    &__top{
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        font-size: 3rem;
+    }
+
+    &__mid{
+        flex: 1;
+    }
+
+    &__bottom{
+        flex: 1;
+        
+    }
+}
